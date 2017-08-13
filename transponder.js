@@ -1,5 +1,5 @@
 const io = require("socket.io-client");
-const socket = io.connect("http://localhost:41838");
+const socket = io.connect("http://35.184.116.31:41838");
 const name = "echotest"
 
 socket.on("connect",function() {
